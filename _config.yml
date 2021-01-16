@@ -30,7 +30,8 @@ twitter_username: xamado
 github_username:  xamado
 
 # Build settings
-theme: minima
+# theme: minima
+remote-theme: andrewhwanpark/dark-poole
 plugins:
   - jekyll-feed
 
