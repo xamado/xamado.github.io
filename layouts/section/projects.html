@@ -1,4 +1,16 @@
+{{ define "title" }}
+  {{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Title }}
+{{ end }}
+
 {{ define "head" }}
+
+{{ end }}
+
+{{ define "header" }}
+{{ partialCached "header.html" . }}
+{{ end }}
+
+{{ define "content" }}
     <style>
         .projects-list {
             display: flex;
@@ -20,27 +32,14 @@
             padding: 4px 0;
         }
     </style>
-	<!-- {{ if .Params.featuredImg -}}
-	<style>.bg-img {background-image: url('{{.Params.featuredImg}}');}</style>
-	{{- else if .Params.images -}}
-		{{- range first 1 .Params.images -}}
-		<style>.bg-img {background-image: url('{{. | absURL}}');}</style>
-		{{- end -}}
-	{{- end -}} -->
-{{ end }}
 
-{{ define "header" }}
-{{ partialCached "header.html" . }}
-{{ end }}
-
-{{ define "main" }}
-	<main class="site-main section-inner thin animated fadeIn faster">
-		<h1>{{ .Title }}</h1>
-		{{- if .Content }}
-		<div class="content">
-			{{ .Content }}
-		</div>
-		{{- end }}
+	<section class="container list">
+        <h1 class="title">
+            <a class="title-link" href="{{ .Permalink | safeURL }}">
+                {{ title (i18n (lower .Title)) | default .Title }}
+            </a>
+        </h1>
+        {{ .Content }}
         <div class="projects-list">
             {{- range .Pages }}
             <div class="project-item">
@@ -58,7 +57,7 @@
             </div>
             {{- end }}
         </div>
-	</main>
+	</section>
 {{ end }}
 
 {{ define "footer" }}
