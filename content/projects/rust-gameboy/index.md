@@ -1,7 +1,8 @@
 ---
-title: "Gameboy and Gameboy Color emulator"
+title: "Gameboy Color emulator"
 date: 2022-07-07T22:58:33-03:00
 draft: false
+thumbnail: gbc-zelda.png
 ---
 
 I wrote this emulator while learning about Rust. The emulator is complete, although some games that rely on specific quirks on the original

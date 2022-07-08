@@ -1,0 +1,66 @@
+{{ define "head" }}
+    <style>
+        .projects-list {
+            display: flex;
+            flex-grow: 1;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            justify-content: space-evenly;
+        }
+
+        .project-item {
+            
+        }
+
+        .project-item a {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            padding: 4px 0;
+        }
+    </style>
+	<!-- {{ if .Params.featuredImg -}}
+	<style>.bg-img {background-image: url('{{.Params.featuredImg}}');}</style>
+	{{- else if .Params.images -}}
+		{{- range first 1 .Params.images -}}
+		<style>.bg-img {background-image: url('{{. | absURL}}');}</style>
+		{{- end -}}
+	{{- end -}} -->
+{{ end }}
+
+{{ define "header" }}
+{{ partialCached "header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+	<main class="site-main section-inner thin animated fadeIn faster">
+		<h1>{{ .Title }}</h1>
+		{{- if .Content }}
+		<div class="content">
+			{{ .Content }}
+		</div>
+		{{- end }}
+        <div class="projects-list">
+            {{- range .Pages }}
+            <div class="project-item">
+                
+                <a href="{{.Permalink}}">
+                    {{ $image := .Resources.GetMatch .Params.thumbnail }}
+                    {{ with $image }}
+                        <img src="{{ ($image.Fill "300x200 q100 Center").RelPermalink }}">
+                    {{ end }}
+                </a>
+                
+                <a href="{{.Permalink}}">
+                    <span class="project-title">{{.Title}}</span>
+                </a>
+            </div>
+            {{- end }}
+        </div>
+	</main>
+{{ end }}
+
+{{ define "footer" }}
+{{ partialCached "footer.html" . }}
+{{ end }}

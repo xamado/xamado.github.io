@@ -2,6 +2,7 @@
 title: "Spark Game Engine"
 date: 2022-07-07T22:58:33-03:00
 draft: false
+thumbnail: thumbnail.png
 ---
 
 Spark is a Game Engine I have been working on for... ever. Started originally in 2009, but since it was always a pet/educational project I never really did anything with it, other than, well, learn! I don't have any delusions of ever it becoming anything other than a way for me to learn and research things that interest me.
