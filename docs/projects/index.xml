@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Xabier Amado</title>
+    <link>https://xamado.github.io/projects/</link>
+    <description>Recent content in Projects on Xabier Amado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 08 Jul 2022 01:13:43 -0300</lastBuildDate><atom:link href="https://xamado.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gameboy and Gameboy Color emulator</title>
+      <link>https://xamado.github.io/projects/rust-gameboy/</link>
+      <pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate>
+      
+      <guid>https://xamado.github.io/projects/rust-gameboy/</guid>
+      <description>I wrote this emulator while learning about Rust. The emulator is complete, although some games that rely on specific quirks on the original hardware might not work perfectly.
+For the most part it was able to play through any of the &amp;ldquo;popular&amp;rdquo; games including the amazing audio track in Zelda&amp;rsquo;s splash screen.
+Zelda Link&amp;#39;s Awakening for GameBoy Color. Ignore de 44ms in the title, Windows snip tool freezes the rendering while taking the screenshot.</description>
+    </item>
+    
+    <item>
+      <title>Spark Game Engine</title>
+      <link>https://xamado.github.io/projects/spark/</link>
+      <pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate>
+      
+      <guid>https://xamado.github.io/projects/spark/</guid>
+      <description>Spark is a Game Engine I have been working on for&amp;hellip; ever. Started originally in 2009, but since it was always a pet/educational project I never really did anything with it, other than, well, learn! I don&amp;rsquo;t have any delusions of ever it becoming anything other than a way for me to learn and research things that interest me.
+Key features:
+Some C++ 20 features. I&amp;rsquo;m not keen on using modern C++ just because it exists, but there&amp;rsquo;s a few things that I do like, like lambdas, std::function, auto for iterators and most recently std::format, which is much more clean than any string formatting ever before in C++.</description>
+    </item>
+    
+  </channel>
+</rss>
