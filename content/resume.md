@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 date: 2022-07-07T22:12:15-03:00
-draft: true
+draft: false
 ---
 
 My name is Xavier Amado and I'm a Game Developer!
