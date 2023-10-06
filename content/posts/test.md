@@ -1,8 +1,8 @@
 +++
 author = "Xabier Amado"
 title = "UE5: Accessing BP components from CDO"
-date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+date = "2023-10-06"
+description = "Unreal Engine 5: Accesing Blueprint CDO components from C++"
 tags = [
     "unreal",
     "ue5",
