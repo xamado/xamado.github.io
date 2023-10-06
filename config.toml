@@ -36,7 +36,7 @@ hideColorSchemeToggle = false
 # Series see also post count
 maxSeeAlsoItems = 5
 # Custom CSS
-customCSS = []
+customCSS = [ "css/syntax.css" ]
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
 customSCSS = []
 # Custom JS
@@ -72,30 +72,6 @@ customJS = []
 # If you want to use Application Insights(https://azure.com/) for analytics, add this section
 # [params.applicationInsights]
 # connectionString = "connectionString"
-
-# If you want to implement a Content-Security-Policy, add this section
-[params.csp]
-childsrc = ["'self'"]
-fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
-formaction = ["'self'"]
-framesrc = ["'self'"]
-imgsrc = ["'self'"]
-objectsrc = ["'none'"]
-stylesrc = [
-  "'self'",
-  "'unsafe-inline'",
-  "https://fonts.googleapis.com/",
-  "https://cdn.jsdelivr.net/"
-]
-scriptsrc = [
-  "'self'",
-  "'unsafe-inline'",
-  "https://www.google-analytics.com",
-  "https://cdn.jsdelivr.net/"
-]
-prefetchsrc = ["'self'"]
-# connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://www.google-analytics.com"]
 
 [taxonomies]
 category = "categories"
@@ -151,3 +127,8 @@ url = "projects/"
 # name = "Contact me"
 # weight = 5
 # url = "contact/"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = 'monokai'
