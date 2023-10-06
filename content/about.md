@@ -148,3 +148,7 @@ Worked as a contractor/freelance developer for a web marketing agency focused mo
 
 Helped develop Marble Blast XP and FlashBIOS using the Torque Game Engine.
 
+#### Contact Info
+
+email: xamado@gmail.com
+discord: eXoDuS#1536
