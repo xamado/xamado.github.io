@@ -20,4 +20,7 @@ Key features:
 
 ![Image alt Main](spark1.png "Main editor view")
 
+{{< youtube G6aJSAUzIMU >}}
+
 ![Image alt GI](spark2.gif "DDGI No leaks test")
+
