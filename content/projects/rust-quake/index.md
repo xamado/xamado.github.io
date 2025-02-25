@@ -1,6 +1,6 @@
 ---
 title: "Rust Quake Rasterizer"
-date: 2025-02-25T22:58:33-03:00
+date: 2022-07-07T22:58:33-03:00
 draft: false
 thumbnail: screenshot1.png
 ---
