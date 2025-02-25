@@ -1,6 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Xabier Amado</title><link>http://xamado.github.io/projects/</link><description>Recent content in Projects on Xabier Amado</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 08 Jul 2022 01:13:43 -0300</lastBuildDate><atom:link href="http://xamado.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Gameboy Color emulator</title><link>http://xamado.github.io/projects/rust-gameboy/</link><pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate><guid>http://xamado.github.io/projects/rust-gameboy/</guid><description>I wrote this emulator while learning about Rust. The emulator is complete, although some games that rely on specific quirks on the original hardware might not work perfectly.
-For the most part it was able to play through any of the &amp;ldquo;popular&amp;rdquo; games including the amazing audio track in Zelda&amp;rsquo;s splash screen.
-Zelda Link&amp;#39;s Awakening for GameBoy Color. Ignore de 44ms in the title, Windows snip tool freezes the rendering while taking the screenshot.</description></item><item><title>Rust Pathtracer</title><link>http://xamado.github.io/projects/rust-pathtracer/</link><pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate><guid>http://xamado.github.io/projects/rust-pathtracer/</guid><description>Another small project to have a bit more fun with Rust. It&amp;rsquo;s a very basic Path tracer.
-Basic path tracer</description></item><item><title>Spark Game Engine</title><link>http://xamado.github.io/projects/spark/</link><pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate><guid>http://xamado.github.io/projects/spark/</guid><description>Spark is a Game Engine I have been working on for&amp;hellip; ever. Started originally in 2009, but since it was always a pet/educational project I never really did anything with it, other than, well, learn! I don&amp;rsquo;t have any delusions of ever it becoming anything other than a way for me to learn and research things that interest me.
-Key features:
-Some C++ 20 features. I&amp;rsquo;m not keen on using modern C++ just because it exists, but there&amp;rsquo;s a few things that I do like, like lambdas, std::function, auto for iterators and most recently std::format, which is much more clean than any string formatting ever before in C++.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Xabier Amado</title><link>http://xamado.github.io/projects/</link><description>Recent content in Projects on Xabier Amado</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 07 Jul 2022 22:58:33 -0300</lastBuildDate><atom:link href="http://xamado.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Gameboy Color emulator</title><link>http://xamado.github.io/projects/rust-gameboy/</link><pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate><guid>http://xamado.github.io/projects/rust-gameboy/</guid><description>&lt;p>I wrote this emulator while learning about Rust. The emulator is complete, although some games that rely on specific quirks on the original
+hardware might not work perfectly.&lt;/p>
+&lt;p>For the most part it was able to play through any of the &amp;ldquo;popular&amp;rdquo; games including the amazing audio track in Zelda&amp;rsquo;s splash screen.&lt;/p>
+&lt;p>
+ &lt;figure>
+ &lt;img src="gbc-zelda.png" alt="Image alt dasdasd">
+ &lt;figcaption>Zelda Link&amp;#39;s Awakening for GameBoy Color. Ignore de 44ms in the title, Windows snip tool freezes the rendering while taking the screenshot.&lt;/figcaption>
+ &lt;/figure>
+&lt;/p></description></item><item><title>Rust Pathtracer</title><link>http://xamado.github.io/projects/rust-pathtracer/</link><pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate><guid>http://xamado.github.io/projects/rust-pathtracer/</guid><description>&lt;p>Another small project to have a bit more fun with Rust. It&amp;rsquo;s a very basic Path tracer.&lt;/p>
+&lt;p>
+ &lt;figure>
+ &lt;img src="pathtracer1.png" alt="Image alt Main">
+ &lt;figcaption>Basic path tracer&lt;/figcaption>
+ &lt;/figure>
+&lt;/p></description></item><item><title>Spark Game Engine</title><link>http://xamado.github.io/projects/spark/</link><pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate><guid>http://xamado.github.io/projects/spark/</guid><description>&lt;p>Spark is a Game Engine I have been working on for&amp;hellip; ever. Started originally in 2009, but since it was always a pet/educational project I never really did anything with it, other than, well, learn! I don&amp;rsquo;t have any delusions of ever it becoming anything other than a way for me to learn and research things that interest me.&lt;/p>
+&lt;p>Key features:&lt;/p>
+&lt;ul>
+&lt;li>Some C++ 20 features. I&amp;rsquo;m not keen on using modern C++ just because it exists, but there&amp;rsquo;s a few things that I do like, like lambdas, std::function, auto for iterators and most recently std::format, which is much more clean than any string formatting ever before in C++.&lt;/li>
+&lt;li>C++ Reflection system, allows for specifying constructors, methods and properties on objects which can be later queried and set from code, for example when parsing a scene file.&lt;/li>
+&lt;li>Designed to be API agnostic, but currently only working on DirectX12.&lt;/li>
+&lt;li>Embedded scripting using Mono/C#&lt;/li>
+&lt;li>PBR renderer&lt;/li>
+&lt;li>Dynamic Diffuse Global Illumination using Raytracing (RTX)&lt;/li>
+&lt;li>Basic tools with scene editing, asset viewing/editing, asset browser, gizmos, etc.&lt;/li>
+&lt;li>Texture loading from TGA, PNG, JPG or DDS files.&lt;/li>
+&lt;li>Mesh loading from FBX files using the official FbxSDK&lt;/li>
+&lt;/ul>
+&lt;p>
+ &lt;figure>
+ &lt;img src="spark1.png" alt="Image alt Main">
+ &lt;figcaption>Main editor view&lt;/figcaption>
+ &lt;/figure>
+&lt;/p></description></item></channel></rss>
