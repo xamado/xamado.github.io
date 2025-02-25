@@ -3,7 +3,6 @@ title = "Xabier Amado"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 20
 pygmentsStyle = "bw"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
@@ -72,6 +71,11 @@ customJS = []
 # If you want to use Application Insights(https://azure.com/) for analytics, add this section
 # [params.applicationInsights]
 # connectionString = "connectionString"
+
+[pagination]
+disableAliases = false
+pagerSize = 10
+path = 'page'
 
 [taxonomies]
 category = "categories"
