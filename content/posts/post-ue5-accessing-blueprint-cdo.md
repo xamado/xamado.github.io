@@ -1,5 +1,5 @@
 +++
-author = "Xabier Amado"
+author = "Xavier Amado"
 title = "UE5: Accessing BP components from CDO"
 date = "2023-10-06"
 description = "Unreal Engine 5: Accesing Blueprint CDO components from C++"

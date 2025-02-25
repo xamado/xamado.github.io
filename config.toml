@@ -1,5 +1,5 @@
 baseURL = "http://xamado.github.io"
-title = "Xabier Amado"
+title = "Xavier Amado"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -11,7 +11,7 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "Xabier Amado"
+author = "Xavier Amado"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Personal website"
 keywords = "blog,developer,personal"
