@@ -1,20 +1,22 @@
 ---
-title: "About"
+title: "Resume"
 date: 2022-07-07T22:21:35-03:00
 draft: false
 ---
 
-My name is Xavier Amado and I'm a Game Developer!
+My name is Xavier and I'm a Game Developer!
 
-I consider myself a problem-solver, hardworking and curious individual, most of my experience comes from a personal itch about learning how things work. 
+I consider myself a problem-solver, hardworking and curious. Most of my experience comes from a personal itch to understand how things work. I started “programming” at six years old on a Commodore 64 using Logo, then moved on to BASIC, Pascal, C++, and haven’t stopped since. My first real involvement in game development was when GarageGames open-sourced the Torque Game Engine — back in a time when game engines were closely guarded secrets and licenses cost millions. That moment opened the door for me, and I never looked back.
 
-I started "programming" when I was only 6 years old on a Commodore64 using Logo, then moved on to Basic, Pascal, C++ and never stopped. My first involvement in real game development was when GarageGames open-sourced the Torque Game Engine, back in a world where Game Engines were close guarded secrets and licenses costed millions, it was a great learning opportunity for me.
+Recently I worked as a Technical Director at Globant, a large software services company, where I lead multiple teams (over 100 people) focused on AAA game development. My role involved a mix of mentorship, technical planning, architecture, and building core systems for the team to expand on. That said, I still code often, both at work and in my personal time — because programming isn’t just my job; it’s what I love doing.
 
-Out ouf curiosity and a "I'm sure I can do it" attitude, I also dwelved into other industries like Web, Servers, Video encoding, etc, but I always returned to my true passion, games.
+When I’m not working, I’m usually experimenting. I’m constantly learning new things or prototyping new ideas — from writing a Gameboy emulator to a basic OS. One of my longest-running personal projects is Spark, a custom rendering engine supporting ray-traced GI running on DirectX 12 with an API abstraction layer (Vulkan is WIP). I’ve also built many prototypes in Unreal Engine — from spherical planets using clipmaps, to rebuilding Unreals Character Movement Component to support dynamic gravity and movement inside moving and rotating vehicles (spaceships).
 
-Currently I'm working as a Technical Director at Globant, a software service provider company, leading much of our efforts into Game Development. Even though I don't have much contact with code on my day to day work I still feel joy on knowing that I'm giving over 80+ people the opportunity to learn and work on AAA game projects, a rare opportunity in my country. That being said, I never stopped working on my pet programming projects.
+You can find some of my work at https://github.com/xamado and https://xamado.github.io/projects/. Most of it is exploratory, the product of late nights driven by curiosity rather than deadlines — but it shows my range, drive, and technical curiosity.
 
-When I step away from the computer I enjoy flying airplanes, I got my private pilots license and I'm currently working towards my commercial.
+I take pride in being proactive and thorough. I enjoy fixing bugs and understanding systems deeply. If someone tells me code "just started working," I’ll keep digging until I break it again and understand why. I favor clean, data-oriented solutions over overly abstract OOP designs — code should solve problems, not introduce new ones. (Though I’m well aware that sometimes we must work within messy systems — hi Unreal! 👋)
+
+Outside of programming, I enjoy flying airplanes. I hold a private pilot’s license and am currently working toward my commercial certification — another lifelong goal rooted in curiosity and challenge.
 
 # Skills
 
@@ -35,6 +37,8 @@ When I step away from the computer I enjoy flying airplanes, I got my private pi
 
 # Credited Games
 
+- Undisclosed 2 - Bandai Namco
+- Gundam Metaverse - Bandai Namco
 - XDefiant - Ubisoft
 - Rocksmith+ - Ubisoft
 - FarCry 6 - Ubisoft
@@ -58,31 +62,43 @@ When I step away from the computer I enjoy flying airplanes, I got my private pi
 ### Technical Director - Globant
 ###### Mar 2016 - Present
 
-As Technical Director at Globant's Gaming Studio I lead the studio's game development practice, follow new business opportunities, empower our teams and developers to grow and just in general help the studio move forward. 
+As Technical Director at Globant's Gaming Studio I led the studio's game development practice, followed new business opportunities, empowered our teams and developers to grow and just in general helped the studio move forward.
 
-I have led the Ubisoft - Globant collaboration from conception to date, finding places where we could add value to the AAA titles developed by Ubisoft.
+I have led the Ubisoft - Globant collaboration for over 8 years, finding places where we could add value to the AAA titles developed by Ubisoft. We started with just 3 engineers and through trust and good work we grew to a peak of around 80 developers on 3 different projects.
 
-I lead a team of 80+ developers.
+I was responsible for assembling a team of not only excellent engineers but great forward going people, which aids in having great team dynamics and collaboration which in turn helped us tackle more and more advanced game engine technology projects and kept the teams learning and growing while still always surpassing our client's expectations.
 
-I am responsible of assembling a team of not only excellent engineers but great forward going people, which aids in having great team dynamics and collaboration which in turn helps us tackle more and more advanced game engine technology projects and keeps the team learning and growing while still always surpassing our client's expectations.
+I was also responsible for identifying new opportunities where we could provide help and followed new business opportunities within other game projects to find engagements where we could grow our business and collaboration.
 
-I'm also responsible of identifying new opportunities where we can provide help and follow new business opportunities within other game projects.
+#### Technical Director - Bandai Namco
+
+Tech: Unreal Engine 5.3, C++
+
+Worked as Director and programmer on 2 new unannounced projects for Bandai Namco Japan based on the Gundam IP.
+
+Both projects were developed from the ground up on Unreal Engine 5. I developed core systems for the games and a separate networking system based on a custom server to align with the needs of an MMO style game experience.
+
+For one of these projects I was prototyping game mechanics, leveraging Epic’s Gameplay Ability System to come up with a clean and modular design to the dozens and dozens of game mechanics we wanted our players to play with.
 
 #### Technical Director - XDefiant
 
-We are currently collaborating with Ubisoft on an upcoming (and announced) title, XDefiant. Our biggest commitment yet with Ubisoft with a team of over 50 people working on multiple aspects of the game from UI and Gameplay to Dedicated Servers, Networking and Stadia/Luna ports.
+Tech: Ubisofts Snowdrop Engine, C++
+
+We have worked on Ubisoft's XDefiant from the first stages of conception. Our biggest collaboration with Ubisoft yet; with a team of over 50 people working on multiple aspects of the game from UI and Gameplay to Dedicated Servers, Networking and Stadia/Luna ports.
 
 #### Technical Director - Rocksmith+
 
-We created the whole Rocksmith+ Workshop ecosystem, allowing users to create their own songs for playing in the game.
+Tech: C++, Custom UI rendering system (DX), C#/.NET, Vue.js
 
-Assembled and lead the team working Rocksmith+ Workshop, a whole new content creation tool for authoring tracks for the game, meant to be used by our users to create exciting new tracks to play in Rocksmith+. The tool was created from scratch using C++ and a custom UI engine designed by myself and built in-house with the Globant team.
+We created the whole Rocksmith+ Workshop ecosystem, from the authoring tool to the website and API/services allowing users to create their own songs for playing in the game and publish them for other users to play.
 
-I designed and developed the core of the custom hardware accelerated UI framework.
+I assembled and led the team working Rocksmith+ Workshop, a whole new content creation tool for authoring tracks for the game, meant to be used by our users to create exciting new tracks to play in Rocksmith+. The tool was created from scratch using C++ and a custom UI engine designed by myself and built in-house with the Globant team.
 
 #### Technical Director - FarCry 6
 
-Assembled and lead the Globant team working on FarCry 6, where we developed engine, rendering, tools and gameplay elements for the upcoming new iteration of the franchise. We collaborated with Ubisoft's team in Toronto. I've continually pushed on getting more parts of the game for our team to work on, constantly showing our capabilities and expertise, and how a small team can produce a huge impact on the quality of life for everyone working with the tools to make such a great game.
+Tech: Ubisofts Dunia Engine
+
+Assembled and led the Globant team working on FarCry 6, where we developed engine, rendering, tools and gameplay elements for the upcoming new iteration of the franchise. We collaborated with Ubisoft's team in Toronto. I've continually pushed on getting more parts of the game for our team to work on, constantly showing our capabilities and expertise, and how a small team can produce a huge impact on the quality of life for everyone working with the tools to make such a great game.
 
 ### Senior Software Engineer - Rabbit Inc.
 ###### Nov 2014 - Jan 2016
