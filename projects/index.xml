@@ -13,17 +13,8 @@ hardware might not work perfectly.&lt;/p>
  &lt;img src="pathtracer1.png" alt="Image alt Main">
  &lt;figcaption>Basic path tracer&lt;/figcaption>
  &lt;/figure>
-&lt;/p></description></item><item><title>Rust Quake Rasterizer</title><link>http://xamado.github.io/projects/rust-quake/</link><pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate><guid>http://xamado.github.io/projects/rust-quake/</guid><description>&lt;p>Decided to implement a software rasterizer in Rust, and what better way to do it than using Quake 1 levels?&lt;/p>
-&lt;p>Still working on this project but so far it supports:&lt;/p>
-&lt;ul>
-&lt;li>Vertex transform pipeline&lt;/li>
-&lt;li>Rasterizer using barycentric coordinates (as opposed to Quakes scanline rasterizer)&lt;/li>
-&lt;li>PVS for determining the leafs to render&lt;/li>
-&lt;li>Texture mapping (using just mip 0 for now)&lt;/li>
-&lt;/ul>
-&lt;p>I still have lots of work to do on it, I haven&amp;rsquo;t even started looking into optimizing it much. I did try
-rasterizing triangles using tiles to skip big portions of &amp;ldquo;inside&amp;rdquo; pixels, but I didn&amp;rsquo;t get as much improvement
-as I meant, so for now its disabled.&lt;/p></description></item><item><title>Spark Game Engine</title><link>http://xamado.github.io/projects/spark/</link><pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate><guid>http://xamado.github.io/projects/spark/</guid><description>&lt;p>Spark is a Game Engine I have been working on for&amp;hellip; ever. Started originally in 2009, but since it was always a pet/educational project I never really did anything with it, other than, well, learn! I don&amp;rsquo;t have any delusions of ever it becoming anything other than a way for me to learn and research things that interest me.&lt;/p>
+&lt;/p></description></item><item><title>Rust Quake Rasterizer</title><link>http://xamado.github.io/projects/rust-quake/</link><pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate><guid>http://xamado.github.io/projects/rust-quake/</guid><description>&lt;p>Decided to implement a software rasterizer in Rust, and what better way to do it than using Quake 1 levels? The goal of this project wasn&amp;rsquo;t to recreate Quake 1, at least not originally, so I&amp;rsquo;m using a more standard baricentric rasterizing step, instead of a scanline approach like Quake used for performance reasons. My goal was to implement a GPU pipeline in software.&lt;/p>
+&lt;p>Still working on this project but so far it supports:&lt;/p></description></item><item><title>Spark Game Engine</title><link>http://xamado.github.io/projects/spark/</link><pubDate>Thu, 07 Jul 2022 22:58:33 -0300</pubDate><guid>http://xamado.github.io/projects/spark/</guid><description>&lt;p>Spark is a Game Engine I have been working on for&amp;hellip; ever. Started originally in 2009, but since it was always a pet/educational project I never really did anything with it, other than, well, learn! I don&amp;rsquo;t have any delusions of ever it becoming anything other than a way for me to learn and research things that interest me.&lt;/p>
 &lt;p>Key features:&lt;/p>
 &lt;ul>
 &lt;li>Some C++ 20 features. I&amp;rsquo;m not keen on using modern C++ just because it exists, but there&amp;rsquo;s a few things that I do like, like lambdas, std::function, auto for iterators and most recently std::format, which is much more clean than any string formatting ever before in C++.&lt;/li>
