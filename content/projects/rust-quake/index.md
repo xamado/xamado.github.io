@@ -18,8 +18,10 @@ I still have lots of work to do on it, I haven't even started looking into optim
 rasterizing triangles using tiles to skip big portions of "inside" pixels, but I didn't get as much improvement 
 as I meant, so for now its disabled.
 
-![Image alt Main](screenshot1.png "Software Rasterizer")
+![Image alt Main](screenshot4.png "Software Rasterizer")
+![Image alt Main](screenshot3.png "Software Rasterizer")
 ![Image alt Main](screenshot2.png "Software Rasterizer")
+![Image alt Main](screenshot1.png "Software Rasterizer")
 
 Repository available at: https://github.com/xamado/rusted-quake
 
