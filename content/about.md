@@ -59,8 +59,19 @@ Outside of programming, I enjoy flying airplanes. I hold a private pilot’s lic
 
 # Experience
 
+### CTO - TGA
+###### Aug 2025 - Oct 2026
+
+I joined TGA to help with an ambitious project: turning a traditional service company into one with its own product and technology, including a proprietary game engine and content creation tools tailored to what they did best — professional educational video games.
+
+When the CTO departed, I stepped into the role and worked to steer the company onto the right track, which required rethinking how work gets done.
+
+As AI's impact on the industry grew, our products had to evolve with it, adapting to a buzzword-driven market to keep customers and investors interested.
+
+Overall, even though it proved a bigger challenge than anyone expected, the product shipped and is now used by companies worldwide to create their own educational games.
+
 ### Technical Director - Globant
-###### Mar 2016 - Present
+###### Mar 2016 - Mar 2025
 
 As Technical Director at Globant's Gaming Studio I led the studio's game development practice, followed new business opportunities, empowered our teams and developers to grow and just in general helped the studio move forward.
 
